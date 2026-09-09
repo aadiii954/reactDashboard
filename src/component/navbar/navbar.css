@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 
-} 
-    
-    
+}
+
+
 .navbar {
     height: 90px;
     width: auto;
@@ -14,26 +14,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-.logo img{
+.logo img {
     height: 80px;
     width: 100px;
     margin-left: 100px;
 }
 
-.menusections ul{
+.menusections ul {
     display: flex;
     gap: 40px;
-margin-right: 100px;
+    margin-right: 100px;
 }
 
-.menusections ul li{
+.menusections ul li {
     list-style: none;
-    color: orange;
+    color: white
 }
-
-.menusections ul li:hover{
+.menusections ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menusection ul li a:hover {
     border-bottom: 1px solid red;
 }
